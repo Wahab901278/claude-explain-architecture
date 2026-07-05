@@ -18,16 +18,16 @@ Say *"explain the architecture of this codebase"* and get, in `docs/architecture
 ### Claude Code — plugin (recommended)
 
 ```
-/plugin marketplace add OWNER/REPO
+/plugin marketplace add Wahab901278/claude-explain-architecture
 /plugin install explain-architecture@explain-architecture-marketplace
 ```
 
 ### Claude Code — manual
 
 ```bash
-git clone https://github.com/OWNER/REPO.git
+git clone https://github.com/Wahab901278/claude-explain-architecture.git
 mkdir -p ~/.claude/skills
-cp -r REPO/skills/explain-architecture ~/.claude/skills/
+cp -r claude-explain-architecture/skills/explain-architecture ~/.claude/skills/
 ```
 
 Or per-project: copy into `<your-repo>/.claude/skills/` instead.
@@ -35,9 +35,9 @@ Or per-project: copy into `<your-repo>/.claude/skills/` instead.
 ### Codex CLI
 
 ```bash
-git clone https://github.com/OWNER/REPO.git
+git clone https://github.com/Wahab901278/claude-explain-architecture.git
 mkdir -p ~/.codex/skills
-cp -r REPO/skills/explain-architecture ~/.codex/skills/
+cp -r claude-explain-architecture/skills/explain-architecture ~/.codex/skills/
 ```
 
 Or add one line to your repo's `AGENTS.md`:
