@@ -17,10 +17,18 @@ Say *"explain the architecture of this codebase"* and get, in `docs/architecture
 
 ### Claude Code — plugin (recommended)
 
+Run these **one at a time** (the second only works after the first finishes):
+
 ```
 /plugin marketplace add Wahab901278/claude-explain-architecture
+```
+```
 /plugin install explain-architecture@explain-architecture-marketplace
 ```
+
+> If Claude Code opens an **"Add Marketplace"** dialog instead, enter only the
+> source — `Wahab901278/claude-explain-architecture` — then run the install
+> command separately.
 
 ### Claude Code — manual
 
