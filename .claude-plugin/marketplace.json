@@ -1,0 +1,14 @@
+{
+  "name": "explain-architecture-marketplace",
+  "owner": {
+    "name": "Abdul Wahab",
+    "email": "abdulwahab901278@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "explain-architecture",
+      "source": "./",
+      "description": "Codebase-to-diagrams explainer for vibe-coders: PNG/PDF architecture visuals, plain-English walkthrough, and an AI context file for any coding agent."
+    }
+  ]
+}

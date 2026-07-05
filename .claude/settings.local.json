@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "Bash(python3 -c \"import PIL; print\\('pillow ok'\\)\")",
+      "Bash(python3 /Users/fireflylaptops/Desktop/My-PC/claude-skill-to-explain-architecture/explain-architecture/scripts/render_diagrams.py /private/tmp/claude-501/-Users-fireflylaptops-Desktop-My-PC-claude-skill-to-explain-architecture/038a24d9-4fdd-4467-a969-bfc381c1180a/scratchpad/testrun)",
+      "Bash(gh auth *)",
+      "Bash(git --version)",
+      "Bash(brew --version)",
+      "Bash(brew install *)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git rm *)",
+      "Bash(git commit -q -m 'feat: explain-architecture skill — codebase to visual diagrams + AI context *)"
+    ]
+  }
+}

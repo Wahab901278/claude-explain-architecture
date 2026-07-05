@@ -1,0 +1,18 @@
+{
+  "name": "explain-architecture",
+  "version": "1.0.0",
+  "description": "Reads your whole codebase and explains the architecture visually — PNG/PDF diagrams (system overview, module map, data flow, ERD), a plain-English ARCHITECTURE.md for non-coders, and an AI-CONTEXT.md you can feed to any coding agent for instant project understanding.",
+  "author": {
+    "name": "Abdul Wahab",
+    "email": "abdulwahab901278@gmail.com"
+  },
+  "keywords": [
+    "architecture",
+    "diagrams",
+    "erd",
+    "mermaid",
+    "documentation",
+    "vibe-coding",
+    "onboarding"
+  ]
+}
